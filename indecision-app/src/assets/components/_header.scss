@@ -1,0 +1,24 @@
+.header {
+  background: color(blue, darker);
+  color: white;
+  padding: $m-size 0;
+  margin-bottom: $xl-size;
+}
+
+.header__title {
+  margin: 0;
+  font-size: $l-size;
+}
+
+.header__subtitle {
+  font-size: $m-size;
+  color: color(blue, lighter);
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $m-size;
+  }
+}

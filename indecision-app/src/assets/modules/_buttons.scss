@@ -1,0 +1,38 @@
+.primary-button {
+  background: color(orange, dark);
+  //   color: color(blue, darker);
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  border-bottom: 0.6rem solid color(orange, darker);
+}
+
+.big-button {
+  width: 100%;
+  font-size: $l-size;
+  padding: $m-size;
+  margin-bottom: $xl-size;
+}
+
+.big-button:disabled {
+  opacity: 0.7;
+}
+
+.sm-button {
+  border-bottom: 0.3rem solid color(orange, darker);
+  padding: $s-size;
+}
+
+.button--link {
+  background: none;
+  border: none;
+  color: color(blue, lighter);
+  padding: 0;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .big-button {
+    margin-bottom: $m-size;
+  }
+}

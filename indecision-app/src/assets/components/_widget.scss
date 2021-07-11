@@ -1,0 +1,28 @@
+.widget {
+  background: color(blue, dark);
+  margin-bottom: $m-size;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  background: color(blue, darker);
+  color: color(blue, lighter);
+  padding: $m-size;
+  margin: 0;
+}
+
+.widget-header__title {
+  padding: 0;
+  margin: 0;
+}
+
+.widget-content {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.widget-content__title {
+  display: block !important;
+  text-align: center;
+}
